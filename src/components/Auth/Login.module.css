@@ -1,0 +1,86 @@
+  body {
+  background-image: url("https://images.pexels.com/photos/7794441/pexels-photo-7794441.jpeg?auto=compress&cs=tinysrgb&w=400");
+  }
+
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .SignUp {
+    background: rgb(223, 247, 255);
+    border: 1px solid rgb(194, 194, 194);
+    padding: 20px;
+    width: 300px;
+    max-width: 90%;
+  }
+  
+  .SignUp h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .SignUp input {
+    margin-bottom: 15px;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 10px 10px;
+    width: 90%;
+    border-radius: 5px;
+  }
+  
+  .SignUp input:hover {
+    background: rgb(187, 219, 255);
+    border: 1px solid rgb(139, 203, 255);
+  }
+  
+  .SignUp button {
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 60px;
+    margin-bottom: 1
+    0px;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    background: rgb(60, 60, 60);
+    width: 95%;
+  }
+  
+  .SignUp span {
+    cursor: pointer;
+    color: rgb(255, 85, 85);
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .SignUp p {
+    cursor: pointer;
+    color: rgb(255, 85, 85);
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  
+  @media (min-width: 720px) {
+    .container {
+      justify-content: center;
+    }
+  
+    .SignUp {
+      width: 400px;
+    }
+    
+    .login {
+      width: 400px;
+    }
+  }
+  

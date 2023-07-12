@@ -1,0 +1,100 @@
+  .InboxContainer {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  .InboxContainer h3 {
+    text-align: center;
+  }
+
+  .EmailsContainer {
+    margin-top: 1rem;
+    border-radius: 15px;
+    padding: 1px 5px;
+    background-color: rgb(223, 247, 255);
+  }
+  
+  .EmailItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+  
+  .EmailItem h4 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .EmailItem p {
+    font-size: 12px;
+    margin: 0;
+    color: #777;
+  }
+  
+  .EmailItem button {
+    margin-left: 0.2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #007bff;
+  }
+  
+  .EmailItem button:hover {
+    text-decoration: underline;
+  }
+  
+  .unRead {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #007bff;
+    border-radius: 50%;
+  }
+  
+  .unreadcount{
+    margin: 15px;
+    color: #007bff; 
+  }
+  .EmailCardContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  
+  .EmailCard {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .EmailCard h2 {
+    margin-top: 0;
+  }
+  
+  .EmailCard p {
+    color: #777;
+  }
+  
+  .EmailCard button {
+    margin-top: 1rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #007bff;
+  }
+  
+  .EmailCard button:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,51 @@
+.InboxContainer {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  .InboxContainer h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .InboxContainer span {
+    color: aquamarine;
+  }
+
+  .EmailsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 50px;
+  }
+  
+  .EmailItem {
+    flex: 1 1 300px;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .EmailItem h4,
+  .EmailItem h5,
+  .EmailItem p {
+    margin: 0;
+  }
+  
+  .unRead {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgb(94, 193, 255);
+  display: inline-block;
+  margin-left: 120px;
+}
+
+
+  @media (max-width: 768px) {
+    .EmailItem {
+      flex-basis: 100%;
+    }
+  }
+  

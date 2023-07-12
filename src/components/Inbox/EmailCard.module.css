@@ -1,0 +1,75 @@
+.EmailCardContainer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 2rem 3rem;
+  cursor: pointer;
+  position: relative;
+  height: 50%;
+  width: 80%;
+  background-color: #defcff;
+}
+
+.EmailCardContainer:hover {
+  background-color: #c8ffff;
+}
+
+.EmailCardHeader {
+  margin-bottom: 10px;
+}
+
+.EmailCardHeader h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.EmailCardHeader p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.EmailCardBody {
+  margin-bottom: 10px;
+}
+
+.EmailCardBody h5 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.EmailCardBody div {
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.closeBtn button {
+  padding: 10px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.closeBtn button:hover {
+  background-color: #007700;
+}
+
+@media screen and (max-width: 720px) {
+  .EmailCardContainer {
+    /* margin: 20% auto; */
+    margin: 4rem 3rem;
+    height: auto;
+    max-width: 80%;
+  }
+}
